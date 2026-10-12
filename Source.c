@@ -12,7 +12,7 @@ int task0()
 {
     char ch;
     int count;
-    puts("Введите кооличество символов и символ");
+    puts("Р’РІРµРґРёС‚Рµ РєРѕРѕР»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ Рё СЃРёРјРІРѕР»");
     scanf("%d %c", &count, &ch);
     for (int start = 1; start <= count; start++)  putchar(ch);
     putchar('\n');
@@ -35,13 +35,12 @@ int task1() {
     int m, n;
     int s = 0;
     int k = 1; 
-    // n=3 m=8
-    printf("Введите значение (m) и (n): ");
+    printf("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ (m) Рё (n): ");
     scanf("%d %d", &m, &n);
     for (int i = n; i >= m; i--) {
         s += i;
-        printf("выполнено %d раз\n", k++);
+        printf("РІС‹РїРѕР»РЅРµРЅРѕ %d СЂР°Р·\n", k++);
     }
-    printf("результат %d", s);
+    printf("СЂРµР·СѓР»СЊС‚Р°С‚ %d", s);
     return 0;
 }
